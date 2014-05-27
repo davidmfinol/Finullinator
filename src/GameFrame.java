@@ -19,9 +19,9 @@ public class GameFrame extends JFrame{
 	 *@param resolution The resolution requested for the frame
 	 */
 	public GameFrame(boolean fullScreen, Dimension resolution) {
-		super("[Place Name Here~]");
+		super("Finullinator");
 		oldDisplayMode = myDevice.getDisplayMode();
-		setIconImage(new ImageIcon("game.jpg").getImage());
+		setIconImage(new ImageIcon("Finullinator.jpg").getImage());
 		setPreferredSize(resolution);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);

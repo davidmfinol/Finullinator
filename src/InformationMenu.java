@@ -31,7 +31,7 @@ public class InformationMenu extends JPanel {
 		g.setColor(write);
 		g.drawString("This game was made by David Finol and Christiaan Cleary.", 0 , getHeight()/10);
 		g.drawString("It's more of a piece of a game engine than anything. ", 0, getHeight()/10*2);
-		g.drawString("Move: Arrow Keys. Jump: Space. Attack: Control.", 0, getHeight()/10*3);
+		g.drawString("Move: Arrow Keys. Melee Attack: Space. Ranged Attack: Ctrl.", 0, getHeight()/10*3);
 		paintComponents(g);
 	}
 }
